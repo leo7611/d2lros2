@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target service_client_01[0m
+[ 50%] Built target service_server_01
+[ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In member function ‘[01m[Kvoid ServiceClient01::send_request(int, int)[m[K’:
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   15 |     while (![01;31m[Kclient[m[K->wait_for_service(std::chrono::seconds(1))) {
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Kclient_[m[K
+make[2]: *** [CMakeFiles/service_client_01.dir/build.make:63：CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/service_client_01.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

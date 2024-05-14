@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j40 -l40
+[0.129s] [35m[1mScanning dependencies of target service_client_01[0m
+[0.163s] [ 50%] Built target service_server_01
+[0.183s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[1.279s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In member function ‘[01m[Kvoid ServiceClient01::send_request(int, int)[m[K’:
+[1.279s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+[1.279s]    15 |     while (![01;31m[Kclient[m[K->wait_for_service(std::chrono::seconds(1))) {
+[1.279s]       |             [01;31m[K^~~~~~[m[K
+[1.280s]       |             [32m[Kclient_[m[K
+[1.768s] make[2]: *** [CMakeFiles/service_client_01.dir/build.make:63：CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] 错误 1
+[1.769s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/service_client_01.dir/all] 错误 2
+[1.769s] make: *** [Makefile:141：all] 错误 2
+[1.775s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j40 -l40

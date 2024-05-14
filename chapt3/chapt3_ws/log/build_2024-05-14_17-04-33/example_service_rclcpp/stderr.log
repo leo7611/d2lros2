@@ -1,0 +1,4 @@
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In member function ‘[01m[Kvoid ServiceClient01::send_request(int, int)[m[K’:
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:31:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kresult_callback[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   31 |     auto [01;35m[Kresult_callback[m[K = std::bind(&ServiceClient01::result_callback_, this,
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
