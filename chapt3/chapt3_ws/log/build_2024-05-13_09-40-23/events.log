@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000956] (example_topic_rclcpp) JobQueued: {'identifier': 'example_topic_rclcpp', 'dependencies': OrderedDict()}
+[0.001125] (example_topic_rclcpp) JobStarted: {'identifier': 'example_topic_rclcpp'}
+[0.013252] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'cmake'}
+[0.013826] (example_topic_rclcpp) JobProgress: {'identifier': 'example_topic_rclcpp', 'progress': 'build'}
+[0.014680] (example_topic_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', '--', '-j40', '-l40'], 'cwd': '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/dell:@/tmp/.ICE-unix/3035,unix/dell:/tmp/.ICE-unix/3035'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:en_US:en'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '2986'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'QiangLi'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('HOME', '/home/QiangLi'), ('USERNAME', 'QiangLi'), ('IM_CONFIG_PHASE', '1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LANG', 'zh_CN.UTF-8'), ('TMUX_TMPDIR', '/home/QiangLi/.tmux/tmp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/foxy'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install'), ('INVOCATION_ID', 'ee9cf21d0aa148edbcb63a990f69260c'), ('MANAGERPID', '2416'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'QiangLi'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-22f3c192af.sock'), ('DISPLAY', ':1'), ('SHLVL', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('PAPERSIZE', 'a4'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:37637'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/opt/ros/foxy/bin:/home/seres/.local/bin/:/home/QiangLi/.local/bin:/home/QiangLi/bin:/home/seres/.local/bin/:/home/QiangLi/.local/bin:/home/QiangLi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8227'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/QiangLi/learn/d2lros2/chapt3'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.082411] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099709] (-) TimerEvent: {}
+[0.124223] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199854] (-) TimerEvent: {}
+[0.300385] (-) TimerEvent: {}
+[0.325445] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.364658] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.367578] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400577] (-) TimerEvent: {}
+[0.489485] (example_topic_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500765] (-) TimerEvent: {}
+[0.537211] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.538214] (example_topic_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600978] (-) TimerEvent: {}
+[0.699274] (example_topic_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.701081] (-) TimerEvent: {}
+[0.796821] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.797902] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.798296] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.798540] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.798943] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.799215] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.799728] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.800781] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.801020] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.801223] (-) TimerEvent: {}
+[0.801545] (example_topic_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.807304] (example_topic_rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.817683] (example_topic_rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.819140] (example_topic_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp\n'}
+[0.885987] (example_topic_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target topic_subscribe_01\x1b[0m\n'}
+[0.901443] (-) TimerEvent: {}
+[0.932738] (example_topic_rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o\x1b[0m\n'}
+[0.933937] (example_topic_rclcpp) StdoutLine: {'line': b'[ 75%] Built target topic_publisher_01\n'}
+[1.001654] (-) TimerEvent: {}
+[1.102299] (-) TimerEvent: {}
+[1.202876] (-) TimerEvent: {}
+[1.303472] (-) TimerEvent: {}
+[1.404116] (-) TimerEvent: {}
+[1.504777] (-) TimerEvent: {}
+[1.605425] (-) TimerEvent: {}
+[1.706073] (-) TimerEvent: {}
+[1.806748] (-) TimerEvent: {}
+[1.907416] (-) TimerEvent: {}
+[2.008066] (-) TimerEvent: {}
+[2.025011] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.025572] (example_topic_rclcpp) StderrLine: {'line': b'   41 |   void command_callback(const std_msgs::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[2.025859] (example_topic_rclcpp) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.026106] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.026343] (example_topic_rclcpp) StderrLine: {'line': b'   41 |   void command_callback(const std_msgs::String::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[2.026561] (example_topic_rclcpp) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.026773] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.027012] (example_topic_rclcpp) StderrLine: {'line': b'   41 |   void command_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::String::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[2.027244] (example_topic_rclcpp) StderrLine: {'line': b'      |                        \x1b[34m\x1b[K~\x1b[m\x1b[K                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.027462] (example_topic_rclcpp) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.027677] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.027898] (example_topic_rclcpp) StderrLine: {'line': b'   41 |   void command_callback(const std_msgs::String::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg) {\n'}
+[2.028304] (example_topic_rclcpp) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.028512] (example_topic_rclcpp) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.028713] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.028940] (example_topic_rclcpp) StderrLine: {'line': b'   41 |   void command_callback(const std_msgs::String::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[2.029148] (example_topic_rclcpp) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.029351] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTopicSubscribe01::TopicSubscribe01(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.029560] (example_topic_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:33:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KTopicSubscribe01\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.029788] (example_topic_rclcpp) StderrLine: {'line': b'   33 |         std::bind(&TopicSubscribe01::\x1b[01;31m\x1b[Ktopic_callback\x1b[m\x1b[K, this,\n'}
+[2.029996] (example_topic_rclcpp) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108280] (-) TimerEvent: {}
+[2.208964] (-) TimerEvent: {}
+[2.309599] (-) TimerEvent: {}
+[2.365435] (example_topic_rclcpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:63\xef\xbc\x9aCMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.366079] (example_topic_rclcpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:134\xef\xbc\x9aCMakeFiles/topic_subscribe_01.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.366648] (example_topic_rclcpp) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.370237] (example_topic_rclcpp) CommandEnded: {'returncode': 2}
+[2.409916] (-) TimerEvent: {}
+[2.505888] (example_topic_rclcpp) JobEnded: {'identifier': 'example_topic_rclcpp', 'rc': 2}
+[2.510038] (-) TimerEvent: {}
+[2.516601] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[0.163s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.180s] [ 75%] Built target topic_publisher_01
+[1.266s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+[1.267s]    41 |   void command_callback(const std_msgs::[01;31m[KString[m[K::SharedPtr msg) {
+[1.267s]       |                                         [01;31m[K^~~~~~[m[K
+[1.267s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[1.267s]    41 |   void command_callback(const std_msgs::String::SharedPtr [01;31m[Kmsg[m[K) {
+[1.268s]       |                                                           [01;31m[K^~~[m[K
+[1.268s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[1.268s]    41 |   void command_callback[34m[K([m[Kconst std_msgs::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+[1.268s]       |                        [34m[K~[m[K                                 [01;31m[K^[m[K[32m[K~~~[m[K
+[1.269s]       |                                                          [32m[K)[m[K
+[1.269s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.269s]    41 |   void command_callback(const std_msgs::String::[01;31m[KSharedPtr[m[K msg) {
+[1.269s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[1.269s]       |                                                          [32m[K;[m[K
+[1.270s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[1.270s]    41 |   void command_callback(const std_msgs::String::SharedPtr [01;31m[Kmsg[m[K) {
+[1.270s]       |                                                           [01;31m[K^~~[m[K
+[1.270s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicSubscribe01::TopicSubscribe01(std::string)[m[K’:
+[1.271s] [01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:33:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KTopicSubscribe01[m[K’
+[1.271s]    33 |         std::bind(&TopicSubscribe01::[01;31m[Ktopic_callback[m[K, this,
+[1.271s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.595s] make[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:63：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+[1.595s] make[1]: *** [CMakeFiles/Makefile2:134：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+[1.596s] make: *** [Makefile:141：all] 错误 2
+[1.602s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40

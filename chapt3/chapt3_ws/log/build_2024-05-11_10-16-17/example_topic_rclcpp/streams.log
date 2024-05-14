@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[0.072s] CMake Error at CMakeLists.txt:38:
+[0.072s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.073s]   "install{TARGETS".
+[0.073s] 
+[0.073s] 
+[0.073s] -- Configuring incomplete, errors occurred!
+[0.074s] See also "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+[0.074s] See also "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeFiles/CMakeError.log".
+[0.074s] make: *** [Makefile:266：cmake_check_build_system] 错误 1
+[0.079s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40

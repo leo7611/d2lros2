@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:38:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "install{TARGETS".
+
+
+-- Configuring incomplete, errors occurred!

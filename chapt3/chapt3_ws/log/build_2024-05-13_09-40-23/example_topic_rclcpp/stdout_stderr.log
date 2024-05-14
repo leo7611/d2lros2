@@ -1,0 +1,49 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[35m[1mScanning dependencies of target topic_subscribe_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[ 75%] Built target topic_publisher_01
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   41 |   void command_callback(const std_msgs::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   41 |   void command_callback(const std_msgs::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   41 |   void command_callback[34m[K([m[Kconst std_msgs::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                        [34m[K~[m[K                                 [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                          [32m[K)[m[K
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   void command_callback(const std_msgs::String::[01;31m[KSharedPtr[m[K msg) {
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:41:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   41 |   void command_callback(const std_msgs::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:[m[K In constructor ‘[01m[KTopicSubscribe01::TopicSubscribe01(std::string)[m[K’:
+[01m[K/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_subscribe_01.cpp:33:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KTopicSubscribe01[m[K’
+   33 |         std::bind(&TopicSubscribe01::[01;31m[Ktopic_callback[m[K, this,
+      |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/topic_subscribe_01.dir/build.make:63：CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:134：CMakeFiles/topic_subscribe_01.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

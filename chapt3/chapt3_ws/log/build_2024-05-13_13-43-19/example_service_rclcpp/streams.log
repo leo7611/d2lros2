@@ -1,0 +1,53 @@
+[0.020s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j40 -l40
+[0.084s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.334s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.377s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.806s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.901s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.902s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.902s] -- Configured cppcheck include dirs: 
+[0.902s] -- Configured cppcheck exclude dirs and/or files: 
+[0.903s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.903s] -- Configured cpplint exclude dirs and/or files: 
+[0.903s] -- Added test 'lint_cmake' to check CMake code style
+[0.905s] -- Added test 'uncrustify' to check C / C++ code style
+[0.905s] -- Configured uncrustify additional arguments: 
+[0.905s] -- Added test 'xmllint' to check XML markup files
+[0.911s] -- Configuring done
+[0.923s] -- Generating done
+[0.925s] -- Build files have been written to: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[0.972s] [35m[1mScanning dependencies of target service_server_01[0m
+[1.024s] [ 25%] [32m[1mLinking CXX executable service_client_01[0m
+[1.028s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[1.203s] [ 75%] Built target service_client_01
+[2.871s] [100%] [32m[1mLinking CXX executable service_server_01[0m
+[3.051s] [100%] Built target service_server_01
+[3.072s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j40 -l40
+[3.215s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[3.227s] -- Install configuration: ""
+[3.227s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[3.228s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[3.228s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[3.228s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[3.228s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[3.229s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[3.229s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[3.229s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[3.230s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[3.230s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[3.230s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[3.230s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[3.231s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[3.233s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[3.235s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[3.238s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[3.238s] -- Set runtime path of "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01" to ""
+[3.239s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[3.240s] -- Set runtime path of "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[3.241s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp

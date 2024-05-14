@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[0.173s] [ 50%] Built target topic_publisher_01
+[0.174s] [100%] Built target topic_subscribe_01
+[0.202s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[0.342s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[0.363s] -- Install configuration: ""
+[0.363s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[0.364s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[0.364s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[0.364s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[0.365s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[0.365s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[0.365s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[0.365s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[0.365s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[0.366s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[0.366s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[0.366s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[0.366s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[0.367s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[0.367s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[0.367s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+[0.370s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp

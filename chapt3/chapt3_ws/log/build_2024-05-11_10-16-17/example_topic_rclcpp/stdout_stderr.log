@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:38:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "install{TARGETS".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeFiles/CMakeOutput.log".
+See also "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266：cmake_check_build_system] 错误 1

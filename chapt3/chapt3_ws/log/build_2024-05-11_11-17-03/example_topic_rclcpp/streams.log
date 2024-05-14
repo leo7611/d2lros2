@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[0.129s] [35m[1mScanning dependencies of target topic_subscribe_01[0m
+[0.176s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscribe_01.dir/src/topic_subscribe_01.cpp.o[0m
+[0.177s] [ 75%] Built target topic_publisher_01
+[1.681s] [100%] [32m[1mLinking CXX executable topic_subscribe_01[0m
+[1.816s] [100%] Built target topic_subscribe_01
+[1.844s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j40 -l40
+[1.987s] Invoking command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
+[2.009s] -- Install configuration: ""
+[2.010s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_topic_rclcpp
+[2.010s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_topic_rclcpp
+[2.010s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.sh
+[2.011s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/ament_prefix_path.dsv
+[2.011s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.sh
+[2.011s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/environment/path.dsv
+[2.011s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.bash
+[2.012s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.sh
+[2.012s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.zsh
+[2.012s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/local_setup.dsv
+[2.012s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv
+[2.013s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/ament_index/resource_index/packages/example_topic_rclcpp
+[2.013s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig.cmake
+[2.013s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/cmake/example_topic_rclcppConfig-version.cmake
+[2.013s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.xml
+[2.013s] -- Up-to-date: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_publisher_01
+[2.014s] -- Installing: /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01
+[2.014s] -- Set runtime path of "/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/install/example_topic_rclcpp/lib/example_topic_rclcpp/topic_subscribe_01" to ""
+[2.018s] Invoked command in '/home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/QiangLi/learn/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp
